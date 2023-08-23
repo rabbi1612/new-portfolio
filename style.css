@@ -1,0 +1,148 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background-color: darkgray;
+}
+nav .logo h3{
+    font-weight: bold;
+    font-size: 30px;
+    float: left;
+    cursor: pointer;
+}
+nav ul {
+    float: right;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+nav li a{
+    font-size: 18px;
+    padding: 0px 30px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+nav li a:hover{
+    color: yellow;
+    margin-bottom: 50px;
+}
+.yel{
+    color: yellow;
+}
+.whi{
+    color: whitesmoke;
+}
+.image{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+}
+.text{
+    color: whitesmoke;
+    text-align: center;
+}
+.sceond{
+    padding-top: 60px;
+}
+button{
+    background-color: yellow;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 18px;
+    padding: 8px;
+}
+.button-center{
+    text-align: center;
+    padding-top: 20px;
+}
+#about{
+    text-align: center;
+    color: whitesmoke;
+    padding: 40px;
+}
+.half-width{
+    width: 45%;
+    padding-left: 10%;
+    margin-left: 2%;
+    color: whitesmoke;
+    float: left;
+    height: 400px;
+}
+.half-width img{
+    width: 300px;
+    height: 400px;
+}
+.gap{
+    padding: 20px;
+    color: whitesmoke;
+}
+.six-itme{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);   
+    color: whitesmoke;
+    padding: 0px 100px ;
+}
+.itme{
+    padding-top: 30px;
+
+}
+.back{
+    background-color: gray;
+    text-align: center;
+    height: 200px;
+    padding-top: 45px;
+}
+.more{
+    background-color: black;
+    color: whitesmoke;
+    padding: 3px 10px;
+    font-size: smaller;
+}
+.nine{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 0px 160px;
+}
+.colorr img{
+    width: 100%;
+    height: 100%;
+}
+#cen{
+    text-align: center;
+}
+.colorr{
+    height: 300px;
+    width: 300px;
+}
+.small{
+    font-size: 8px;
+}
+.last{
+    color: whitesmoke;
+}
+.bottom{
+    text-align: center;
+    height: 200px;
+    background-color: grey;
+    padding-top: 60px;
+}
+#mid{
+    text-align: center;
+    padding: 30px;
+}
